@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+.top {
+    width: 800px;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #999;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#user-icon {
+    width: 100px;
+}
+.col-l {
+    flex: 1;
+}
+.col-r {
+    flex: 2;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.user {
+    width: auto;
+    height: 400px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card {
+    width: auto;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 40px;
+
+}
+.card-top {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px
+}
+.like-btn {
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+    box-shadow: 5px 5px black;
+    margin-bottom: 20px;
+}
